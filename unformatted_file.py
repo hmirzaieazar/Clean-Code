@@ -10,7 +10,8 @@ def addition(
 
 
 print(
-    f"Here is the result of summation of two big number 10000000 + 2774895994 = {sum(10000000,2774895994)}"
+    f"Here is the result of summation of two big number 10000000 + 2774895994 "
+    f"= {sum(10000000,2774895994)}"
 )
 hed = np.array([1, 2, 3])
 RESULT = (
@@ -25,5 +26,5 @@ RESULT = (
 )
 
 
-def multiply(a, b ):
+def multiply(a, b   ):
     return a * b
