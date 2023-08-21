@@ -1,4 +1,3 @@
-# pylint: disable=missing-module-docstring
 import pandas as pd
 import numpy as np
 
