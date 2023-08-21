@@ -1,5 +1,6 @@
 # pylint: disable=missing-module-docstring
 import numpy as np
+import pandas as pd
 
 
 def addition(
@@ -26,5 +27,8 @@ RESULT = (
 )
 
 
-def multiply(a, b   ):
+def multiply(a, b):
     return a * b
+
+
+hed = pd.DataFrame([1, 2, 3])
