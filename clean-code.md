@@ -129,4 +129,6 @@ pre-commit run --all-files
 
 SKIP=black git commit -m "..." // a way to silent one of the hooks
 
+git commit -m "..." --no-verify
+
 # GitHub Action
